@@ -1,7 +1,7 @@
  import express from 'express';
-import { products } from './src/constants/Constants.js';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
+import { products } from './constants/Constants.js';
 
 dotenv.config()
  const port = process.env.PORT || 5001;
